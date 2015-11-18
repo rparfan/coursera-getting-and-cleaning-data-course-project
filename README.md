@@ -5,13 +5,8 @@ This repository contains all artifacts required by [Getting and Cleaning Data](h
 
 As required by the project, the following files are added in this repository:
 - **README.md** - This file itself.
-- **CodeBook.md** - Describes the variables, the data, and any transformations or work performed to clean up the data.
-- **run_analysis.R** - R script that generates `tidyData.txt` via the following steps:
-  1. Merge two data sets (train and test) to create one data set.
-  2. Extracts only the measurements on the mean and standard deviation for each measurement. 
-  3. Use descriptive activity names to name the activities in the data set
-  4. Appropriately label the data set with descriptive variable names. 
-  5. Create a second, independent tidy data set with the average of each variable for each activity and each subject.
+- **CodeBook.md** - Describes the variables, the data, and transformations or work performed to clean up the data.
+- **run_analysis.R** - R script that generates `tidyData.txt`. Detailed information about the variables used and transformations performed in the script are outlined in `CodeBook.md`.
 - **tidyData.txt** - The tidied output data set. The file is created in the same directory where `run_analysis.R` is.
 
 ## Generating `tidyData.txt`
