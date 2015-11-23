@@ -25,4 +25,4 @@ As required by the project, the following files are added in this repository:
 ```
 
 * Set R's working directory to where `run_analysis.R` is in.
-* Execute `source(./run_analysis.R)`
+* Execute `source('./run_analysis.R')`
